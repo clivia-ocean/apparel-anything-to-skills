@@ -1,0 +1,86 @@
+version: 1
+industries:
+  general:
+    categories:
+      - id: price
+        label: Price and commercial terms
+        terms: ["target price", "best price", "price", "budget", "cost", "报价", "价格", "预算", "成本"]
+        importance: 1.0
+        supplier_capabilities: ["cost engineering", "transparent quotation", "material yield optimization"]
+      - id: minimum_order
+        label: Minimum order quantity
+        terms: ["moq", "minimum order", "minimum quantity", "small quantity", "low moq", "起订量", "小批量"]
+        importance: 0.95
+        supplier_capabilities: ["flexible MOQ", "small-batch production planning"]
+      - id: lead_time
+        label: Lead time and delivery
+        terms: ["lead time", "delivery time", "ship by", "urgent", "fast delivery", "交期", "交货", "快速交货"]
+        importance: 0.9
+        supplier_capabilities: ["production scheduling", "on-time delivery tracking", "raw-material readiness"]
+      - id: quality
+        label: Product quality and consistency
+        terms: ["quality", "consistent quality", "defect", "inspection", "durable", "品质", "质量", "验货", "耐用"]
+        importance: 1.0
+        supplier_capabilities: ["incoming/final inspection", "AQL process", "lot consistency controls"]
+      - id: capacity
+        label: Production capacity
+        terms: ["capacity", "bulk production", "large volume", "monthly output", "产能", "大货", "批量生产"]
+        importance: 0.9
+        supplier_capabilities: ["documented monthly capacity", "line planning", "capacity reservation"]
+      - id: customization
+        label: Customization and private label
+        terms: ["custom", "customize", "private label", "oem", "odm", "logo", "branding", "定制", "贴牌", "商标", "印花"]
+        importance: 0.85
+        supplier_capabilities: ["sampling", "custom labels", "packaging and artwork approval"]
+      - id: certification
+        label: Certifications and compliance
+        terms: ["certification", "certified", "oeko-tex", "gots", "compliance", "测试报告", "认证", "合规"]
+        importance: 0.8
+        supplier_capabilities: ["valid certificate management", "material traceability", "compliance documentation"]
+      - id: sampling
+        label: Samples and development
+        terms: ["sample", "sampling", "prototype", "development", "样品", "打样", "开发"]
+        importance: 0.7
+        supplier_capabilities: ["sample room", "technical pack review", "sample turnaround tracking"]
+  apparel:
+    categories:
+      - id: apparel_product
+        label: Apparel product type
+        terms: ["pajamas", "pyjamas", "sleepwear", "loungewear", "robe", "nightwear", "家居服", "睡衣", "睡袍"]
+        importance: 0.85
+        supplier_capabilities: ["category-specific pattern and sewing expertise"]
+      - id: fabric_material
+        label: Fabric and material
+        terms: ["cotton", "organic cotton", "modal", "bamboo", "viscose", "silk", "satin", "mesh", "linen", "fleece", "jersey", "面料", "纯棉", "莫代尔", "竹纤维", "真丝", "缎面", "网眼", "亚麻"]
+        importance: 0.95
+        supplier_capabilities: ["fabric sourcing", "composition verification", "shrinkage and colorfastness testing"]
+      - id: fit_size
+        label: Fit, sizing and size inclusivity
+        terms: ["plus size", "extended sizes", "size range", "oversized", "relaxed fit", "petite", "大码", "加大码", "尺码", "宽松版"]
+        importance: 0.9
+        supplier_capabilities: ["graded size sets", "fit samples", "inclusive size pattern blocks"]
+      - id: style_design
+        label: Style and design
+        terms: ["design", "style", "silhouette", "matching set", "two piece", "button down", "piping", "款式", "版型", "套装", "滚边", "开襟"]
+        importance: 0.75
+        supplier_capabilities: ["pattern development", "design-to-sample execution"]
+      - id: print_color
+        label: Print, color and trim
+        terms: ["custom print", "printed", "print", "color", "colour", "dye", "embroidery", "plaque", "logo plate", "印花", "颜色", "染色", "刺绣", "金属标"]
+        importance: 0.8
+        supplier_capabilities: ["print strike-off", "color lab dips", "embroidery and trim sourcing"]
+      - id: comfort_function
+        label: Comfort and functional performance
+        terms: ["breathable", "soft", "lightweight", "stretch", "moisture wicking", "cooling", "温度调节", "透气", "柔软", "轻薄", "弹力", "吸湿排汗"]
+        importance: 0.9
+        supplier_capabilities: ["fabric performance testing", "hand-feel approval", "wear testing"]
+      - id: packaging_label
+        label: Labels and packaging
+        terms: ["hangtag", "hang tag", "woven label", "care label", "packaging", "gift box", "吊牌", "织唛", "洗标", "包装", "礼盒"]
+        importance: 0.65
+        supplier_capabilities: ["label and packaging customization", "barcode and carton marking"]
+      - id: sustainability
+        label: Sustainability and material responsibility
+        terms: ["sustainable", "recycled", "recyclable", "organic", "responsible sourcing", "可持续", "再生", "有机", "环保"]
+        importance: 0.7
+        supplier_capabilities: ["traceable sourcing", "recycled/organic material documentation"]

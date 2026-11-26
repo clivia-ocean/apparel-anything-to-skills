@@ -1,0 +1,16 @@
+weights:
+  customer_coverage: 0.40
+  explicitness: 0.20
+  commercial_importance: 0.25
+  recent_trend: 0.15
+trend:
+  recent_days: 90
+  comparison_days: 90
+  neutral_score: 50
+thresholds:
+  high_priority: 70
+  medium_priority: 45
+  minimum_segment_records: 3
+deduplication:
+  exact_id: true
+  fuzzy_text_customer_date: true

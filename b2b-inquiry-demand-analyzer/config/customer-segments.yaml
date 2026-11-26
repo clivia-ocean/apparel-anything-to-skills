@@ -1,0 +1,9 @@
+segments:
+  dtc_brand: ["dtc", "direct to consumer", "direct-to-consumer", "online brand", "独立站品牌"]
+  retailer: ["retailer", "retail", "零售商"]
+  wholesaler: ["wholesaler", "wholesale", "批发商"]
+  importer: ["importer", "进口商"]
+  distributor: ["distributor", "分销商"]
+  marketplace_seller: ["marketplace seller", "amazon seller", "平台卖家"]
+  manufacturer: ["manufacturer", "brand manufacturer", "制造商"]
+  unknown: ["unknown", "n/a", ""]

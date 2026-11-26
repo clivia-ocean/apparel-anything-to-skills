@@ -1,0 +1,3 @@
+inquiry_id,customer_id,customer_name,email,country,customer_segment,product_category,inquiry_date,subject,body,source,language
+A013,C012,Willow Sleep,procurement@willowsleep.example,United States,DTC brand,Loungewear,2026-11-18,Modal loungewear,"Interested in breathable modal loungewear, extended sizing, custom logo labels and low MOQ.",email,en
+A014,C013,Pacific Imports,buy@pacificimports.example,New Zealand,Importer,Pajamas,2026-11-21,Bulk cotton pajamas,"Need bulk capacity, stable quality, cotton fabric options and on-time delivery.",email,en
